@@ -93,7 +93,7 @@ See [Twilio Account Settings](#twilio-account-settings) to locate the necessary 
 6. Run ngrok (or use the [ngrok Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=DavidProthero.NgrokExtensions))
 
 ```bash
-ngrok http -host-header="localhost:9932" 9932
+ngrok http --host-header="localhost:9932" 9932
 ```
 
 > [Learn 6 awesome reasons why to use ngrok](https://www.twilio.com/blog/2015/09/6-awesome-reasons-to-use-ngrok-when-testing-webhooks.html).
